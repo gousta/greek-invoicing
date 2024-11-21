@@ -1,0 +1,36 @@
+{
+  "name": "greek-invoicing",
+  "version": "0.0.1",
+  "description": "Greek invoicing wrapper for nodejs (for myDATA AADE)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "greek",
+    "greece",
+    "invoicing",
+    "wrapper",
+    "nodejs",
+    "mydata",
+    "aade"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "postversion": "git push --follow-tags"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "author": "Stratos Giouldasis <giouldasis.stratos@gmail.com>",
+  "homepage": "https://github.com/gousta/greek-invoicing",
+  "bugs": {
+    "url": "https://github.com/gousta/greek-invoicing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gousta/greek-invoicing"
+  }
+}
